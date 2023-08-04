@@ -91,7 +91,23 @@
   }
 }
 
-body {
+body 
+
+  {
+      background-image: url("{% static 'AppCoder/assets/img/chey.jpg' %}");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      /* Opcional: Si quieres que el fondo cubra toda la pantalla, puedes agregar esto */
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+ 
+{
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);

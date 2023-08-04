@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos_list</title>
+</head>
+<body>
+    <h1>Fans </h1>
+    <ul>
+        {% for fans in object_list %}
+            <li>
+                <p>NOMBRE:{{fans.nombre}}</p>
+                <p>
+                    <a href="{% url 'Detail' fans.id %}">Ver</a>
+                    <a href="{%url 'Edit' fans.id%}">Editar</a>
+                    <a href="{%url 'Delete' fans.id %}">Borrar</a>
+                </p>
+            </li>
+        {%endfor%}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Fans</title>
+</head>
+<body>
+    <h1>Lista de Fans Registrados:</h1>
+    <ul>
+        {% for fans in fans %}
+            <li>{{ fans.nombre }} {{fans.apellido}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

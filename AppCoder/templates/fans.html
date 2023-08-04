@@ -1,0 +1,65 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+
+    <!--En este lugar va lo que cambia y se asocia a la vista -->
+    {% if miFormulario.errors %}
+        <p style="color: red;">Estan mal los datos</p>
+    {%endif%}
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+    
+
+
+
+
+    <h1>Unite a nuestra comunidad!</h1>
+    <br>
+    <p>"¡Únete a nuestra comunidad de fans y descubre un mundo lleno de pasión y emociones! Si eres amante de la música y la creatividad, este es el lugar perfecto para ti. 
+
+        Nuestra comunidad está formada por personas apasionadas como tú, que encuentran en la música una fuente inagotable de inspiración y expresión.
+<br>
+        Como fan, tendrás acceso a contenido exclusivo, como adelantos de nuevas canciones, videos detrás de escena, sesiones de preguntas y respuestas con los artistas, y mucho más.
+        <br>
+        Además, podrás interactuar con otros fans que comparten tus mismas pasiones, crear conexiones significativas y ser parte de una comunidad unida.
+        <br>
+        ¿Quieres estar al tanto de nuestros próximos lanzamientos, giras y eventos especiales? ¡Únete ahora y no te pierdas ninguna novedad! 
+        <br>
+        Ser fan también te brinda la oportunidad de participar en concursos, sorteos y promociones exclusivas.
+        <br>
+        No importa de dónde seas ni qué género musical te apasione, en nuestra comunidad hay espacio para todos los amantes de la música.
+        <br>
+        ¡Es hora de compartir la emoción y la alegría que la música nos brinda!
+        <br>
+        ¡Hazte fan hoy mismo y comienza a vivir una experiencia musical única e inolvidable!
+        <br>
+        ¡Te esperamos con los brazos abiertos para que formes parte de nuestra gran familia de fans!
+        <br>
+        ¡Únete ahora y sé parte de esta increíble aventura musical!"</p>
+
+
+    <form action="" method="POST">{% csrf_token%}
+        <table>
+            {{miFormulario.as_table}}
+        </table>
+
+        <input type="submit", value="Enviar">
+    </form>
+    <br>
+    <p>Si queres visualizar si ya estas en la lista de fans, haz click en el siguiente enlace:<a href="http://127.0.0.1:8000/AppCoder/lista_fans">Lista de fans registrados</a></p>
+    
+    
+
+    <p>Si queres visualizar si ya estas en la lista de usuarios, haz click en el siguiente enlace:<a href="http://127.0.0.1:8000/AppCoder/lista_usuarios">Lista de usuarios registrados</a></p>
+    
+    <p>Si queres editar tu Perfil, haz click en el siguiente enlace:<a href="http://127.0.0.1:8000/AppCoder/editarPerfil">Editar Perfil</a></p>
+    
+{% endblock %}

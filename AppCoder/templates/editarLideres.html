@@ -1,0 +1,23 @@
+{% extends "padre.html" %}
+{% load static %}
+{%block titulo%}
+
+{%endblock%}
+
+{%block contenidoQueCambia %}
+    <h1 class="mb-5">Editando Profesor</h1>
+
+    {% if miFormulario.errors %}
+    <p style="color:red;"> Estan mal los datos, revisar</p>
+    {% endif %}
+
+
+    <form action="" method="POST"> {%csrf_token%}
+        <table>
+        {{miFormulario.as_table}}
+        </table>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+{%endblock%}

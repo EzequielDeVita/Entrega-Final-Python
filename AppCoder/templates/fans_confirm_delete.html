@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrar curso</title>
+</head>
+<body>
+    <form method="post">{% csrf_token %}
+        seguro lo queres borrar?
+        <input type="submit" value="Sumbit"/>
+</body>
+</html>

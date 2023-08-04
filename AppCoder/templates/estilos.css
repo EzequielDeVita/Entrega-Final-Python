@@ -1,0 +1,57 @@
+/* estilos.css */
+body {
+
+
+
+
+    
+    background-image: url('AppCoder/static/AppCoder/assets/img/chey.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #228B22;
+}
+
+.artist-description {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.artist-summary {
+    font-style: italic;
+}
+
+.follow-links {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.follow-link {
+    margin-bottom: 10px;
+}
+
+.follow-link a {
+    color: #228B22;
+    text-decoration: none;
+}
+
+.follow-link a:hover {
+    text-decoration: underline;
+}

@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario - Agregar Profesor</title>
+    <title>Formulario</title>
 </head>
 <body>
     {% if miFormulario.errors %}
-        <p style="color: red;">Estan mal los datos</p>
+        <p style="color:red;">Estan mal los datos</p>
     {% endif %}
     <form action="" method="POST"> {% csrf_token %}
 
-        <!--Aca van los elementos de Django-->
+        
 
         <table>
             {{ miFormulario.as_table}}

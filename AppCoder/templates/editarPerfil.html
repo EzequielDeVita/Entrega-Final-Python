@@ -1,0 +1,21 @@
+{%extends "padre.html" %}
+
+{%load static %}
+
+{%block contenidoQueCambia%}
+
+    <h1>Formulario para editar tu perfil!</h1>
+    <h1>Del usuario "{{usuario}}"</h1>
+
+    <form action ="" method="POST">{%csrf_token%}
+
+        <table>
+
+            {{miFormulario.as_table}}
+
+        </table>
+        
+        <input type="submit", value="Enviar">
+    </form>
+
+{%endblock%}

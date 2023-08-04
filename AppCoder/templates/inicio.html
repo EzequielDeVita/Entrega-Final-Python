@@ -4,8 +4,49 @@
 
 {% block contenidoQueCambia %}
 
-    <!--En este lugar va lo que cambia y se asocia a la vista -->
-    <h1>Tercer pre entrega - Django</h1>
-    <p>Se hereda todo desde la plantilla padre</p>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
+
+
+
+
+    <div class="text-center">
+     <img height="100px" src="{{url}}">
+     <h3>Que bueno verte {{user.username}} !!! Espero disfrutes de tu cantante favorita!<a href="http://127.0.0.1:8000/AppCoder/logout">Para desloguearte, click aqui.</a></h3>
+    </div>
+    <title>Cheyca Parker - Artista Musical</title>
+    <link rel="stylesheet" href="C:\Users\Ezequiel\Documents\CoderHouse\ProyectoCoder\AppCoder\templates\estilos.css">
+            
+
+                <div class="container">
+                    <h1>Cheyca Parker - Artista </h1>
+            
+                    <p class="artist-description">Cheyca Parker es una artista musical versátil conocida por su pasión por la expresión artística. Explora varios medios como la escritura, la danza, la composición, el canto, la pintura y la actuación.</p>
+                    
+                    <p class="artist-description">Con una marca sensual y oscura, deambula entre Jazz, R&B, Soul, Gospel, Opera, Rock y otros estilos. Después de su proyecto "Cheyca Parker and The Malbecness", se embarcó en un viaje en solitario.</p>
+                    
+                    <p class="artist-description">Cheyca, nacida en Buenos Aires, Argentina, ha estado vinculada a la música desde muy joven. En 2010, comenzó con una banda de Hip-Hop/R&B y se expandió a la danza, la pintura, la actuación y la escritura.</p>
+                    
+                    <p class="artist-description">En 2019, formó la banda "Cheyca Parker & The Malbecness", fusionando Jazz, R&B, Soul y Funk. Actualmente, está trabajando en el álbum "Immerse in Wine".</p>
+                    
+                    <p class="artist-description">Cheyca escribe y pinta, con un proyecto llamado "El Amor de Chey". Ella mantiene su propio jardín, encontrando inspiración en la naturaleza. Como artista independiente, asume un papel activo en la configuración de su carrera.</p>
+                    
+                    <p class="artist-description">Sus próximos lanzamientos incluyen "Llueve en tu Barba" (2 de junio de 2023) y "Toxicidad" (7 de julio de 2023), mostrando su sonido único.</p>
+                    
+                    <p class="artist-summary">En resumen, Cheyca Parker es una artista musical versátil que explora varios medios y estilos. Con su marca sensual, cautiva a los oyentes con su voz y expresión artística. Su viaje como artista independiente promete crecimiento y creatividad continuos.</p>
+                    
+                    <p class="follow-links">A continuación les dejo las redes sociales de la majestuosa, Cheyca Parker!</p>
+                    <p class="follow-link"><a href="https://www.instagram.com/cheyca.parker/">Instagram</a></p>
+                    <p class="follow-link"><a href="https://www.facebook.com/cheycaa">Facebook</a></p>
+                </div>
+    
+    <p style="color: red;">{{respuesta}}</p>
 
 {% endblock %}
