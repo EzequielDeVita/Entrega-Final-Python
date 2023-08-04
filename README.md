@@ -17,4 +17,9 @@ En el "Acerca de" en la zona inferior izq van a encontrar una breve descripcion 
 
 y en el extremo inferior derecho se encuentran mis redes sociales adjuntas!!
 
+En el boton Registrate podemos encontrar el formulario de registro del usuario.
+Para luego en el boton Login podamos loguearnos con nuestro usuario creado.
+En el boton de Superadmin te dirige a la pagina del administrador donde podremos ver y manipular los datos recopilados.
+Ademas en el centro de la pantalla cuando nos da el saludo del logeo, podemos identificar un link que al clickearlo nos genera el logout.
+
 Saludos!
