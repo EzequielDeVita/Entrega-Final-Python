@@ -24,4 +24,11 @@ Ademas en el centro de la pantalla cuando nos da el saludo del logeo, podemos id
 
 Saludos!
 
-[![Alt text](https://img.youtube.com/vi/pdbEx7nuczo/0.jpg)](https://www.youtube.com/watch?v=pdbEx7nuczo)
+
+A continuacion les dejo el link hacia el video de muestra de la pagina. Alli veran el funcionamiento!
+[![Alt text](https://img.youtube.com/vi/EDULdFFD5oY/0.jpg)](https://www.youtube.com/watch?v=EDULdFFD5oY)
+
+
+A continuacion les dejo la muestra de que la base de datos funciona tambien.
+[![Alt text](https://img.youtube.com/vi/_yppHpZKvW8/0.jpg)](https://www.youtube.com/watch?v=_yppHpZKvW8)
+
