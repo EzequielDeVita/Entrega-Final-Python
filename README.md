@@ -23,3 +23,5 @@ En el boton de Superadmin te dirige a la pagina del administrador donde podremos
 Ademas en el centro de la pantalla cuando nos da el saludo del logeo, podemos identificar un link que al clickearlo nos genera el logout.
 
 Saludos!
+
+[![Alt text](https://img.youtube.com/vi/pdbEx7nuczo/0.jpg)](https://www.youtube.com/watch?v=pdbEx7nuczo)
